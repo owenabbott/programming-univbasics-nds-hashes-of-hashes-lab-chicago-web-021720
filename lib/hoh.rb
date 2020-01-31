@@ -32,7 +32,11 @@
 
 
 def naming_system
-  PORTION_1
+  HoH = Hash.new 
+  HoH[:kingdom]=PORTION_1
+  HoH[:order]=PORTION_2
+  HoH[:family]=PORTION_3
+  HoH[:species]=PORTION_4
   # Remember:
   #  Kingdom
   #  Phylum
