@@ -32,11 +32,11 @@
 
 
 def naming_system
-  HoH = Hash.new 
-  HoH[:kingdom]=PORTION_1
-  HoH[:order]=PORTION_2
-  HoH[:family]=PORTION_3
-  HoH[:species]=PORTION_4
+  hoh = Hash.new 
+  hoh[:kingdom]=PORTION_1
+  hoh[:order]=PORTION_2
+  hoh[:family]=PORTION_3
+  hoh[:species]=PORTION_4
   # Remember:
   #  Kingdom
   #  Phylum
@@ -47,5 +47,5 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-return HoH
+return hoh
 end
