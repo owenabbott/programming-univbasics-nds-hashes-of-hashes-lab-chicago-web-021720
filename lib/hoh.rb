@@ -30,9 +30,9 @@
    sub_category: nil
  }
 
-HoH = {PORTION_1, PORTION_2, PORTION_3, PORTION_4}
 
 def naming_system
+  PORTION_1
   # Remember:
   #  Kingdom
   #  Phylum
